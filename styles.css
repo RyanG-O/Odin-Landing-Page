@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 15%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#img1 {
+    flex: 1 1 min-content;
+    border: 1px solid #e5e7eb;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 0%;
+    gap: 50px;
+}
+
+#intro-left {
+    flex: 1 1 min-content;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#button1 {
+    border: 0;
+    margin-top: 10px;
+}
+
+#main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.info {
+    padding: 7% 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#info-title {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.info-img {
+    border: 3px solid #3882f8;
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+    margin: 10%;
+}
+
+.info-bottom {
+    display: flex;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 6% 20%;
+}
+
+#quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+#quote-author {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.action {
+    background-color: #3882f8;
+    padding: 3% 12%;
+    margin: 3% 10%;
+    display: flex;
+    align-items: center;
+}
+
+.sign-up-button {
+    margin-left: auto;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    background-color: #3882f8;
+    padding: 1% 4%;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+#action-title {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#action-text {
+    color: #f9faf8;
+}
+
+.para-spacing {
+    margin-top: 7px;
+}
